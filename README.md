@@ -17,6 +17,7 @@ It uses the PhiUSIIL Phishing URL Dataset and compares the performance of models
 
 The model learns to identify suspicious URL patterns and classify them as either Legitimate (0) or Phishing (1).
 
+---
 
 
 ## 📂 Dataset
@@ -26,6 +27,8 @@ Dataset Name: PhiUSIIL Phishing URL Dataset
 Format: CSV (inside archive.zip)
 
 Source: [Academic research dataset containing extracted URL-level features.](https://www.kaggle.com/datasets/ndarvind/phiusiil-phishing-url-dataset)
+
+---
 
 
 ## ⚙️ Project Workflow
@@ -41,6 +44,9 @@ Model training — use 5 ensemble models for comparison
 Evaluation — accuracy, precision, recall, F1, ROC-AUC metrics
 
 Visualization — metric comparison, confusion matrix, ROC curve
+
+---
+
 
 ## 🧠 Models Used
 
